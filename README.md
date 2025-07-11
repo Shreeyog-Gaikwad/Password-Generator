@@ -70,6 +70,7 @@ cd Password-Generator
 
 # Install dependencies
 npm install
+npm install tailwindcss @tailwindcss/vite
 
 # Start the development server
 npm run dev
