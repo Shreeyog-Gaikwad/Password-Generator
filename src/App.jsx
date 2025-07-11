@@ -44,8 +44,8 @@ function App() {
   
 
   return (
-    <div className='w-[100vw] h-[100vh] bg-gray-900 flex items-center justify-center flex-col gap-24'>
-      <div className='text-6xl text-white font-bold italic'>Password Generator</div>
+    <div className='w-[100vw] h-[100vh] bg-gray-400 flex items-center justify-center flex-col gap-24'>
+      <div className='text-6xl text-black font-bold italic'>Password Generator</div>
       <div className='w-lvh h-72 bg-gray-700 rounded-2xl flex items-center justify-center flex-col gap-16 border-3 border-blue-300'>
         <div className='w-[90%] h-10 bg-white rounded-lg flex border-blue-300 border-3'>
           <input type="text" className='w-[90%] px-5 ' value={password} placeholder="Password" readOnly ref={copyPass}/>
